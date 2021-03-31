@@ -1,4 +1,4 @@
-# markdown-editor
+Techpitの学習用教材です。
 
 [Techpit](https://www.techpit.jp/) で販売している教材のサンプルアプリ用のソースコードです。
 
