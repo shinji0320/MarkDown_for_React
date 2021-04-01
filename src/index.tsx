@@ -4,20 +4,20 @@ import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import { Editor } from './pages/editor'
 
+
+
 const GlobalStyle = createGlobalStyle`
-body * {
-  box-sizing: border-box;
-}
-`
-
-const Main = (
-<>
-  <GlobalStyle />
-  <Editor />
-</>
-)
-
-
+    body * {
+      box-sizing: border-box;
+    }
+  `
+  
+  const Main = (
+    <>
+      <GlobalStyle />
+      <Editor />
+    </>
+  )
 
 
 
