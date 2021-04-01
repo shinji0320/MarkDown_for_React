@@ -1,4 +1,4 @@
-Techpitの学習用教材です。
+Techpitの学習教材の学習用です。
 
 [Techpit](https://www.techpit.jp/) で販売している教材のサンプルアプリ用のソースコードです。
 
