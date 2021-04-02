@@ -57,13 +57,14 @@ const HeaderControl =styled.div`
   align-content: center;
 `
 
+interface Props {
+  text: string
+  setText: (text: string) => void
+}
 
 
-const StorageKey = 'pages/editor:text'
-
-export const Editor: React.FC = () => {
-  const [text, setText] = useStateWithStorage('', StorageKey)
-
+export const Editor: React.FC<Props> = (props) => {
+  const { text, setText } = props
   const [showModal, setShowModal] = useState(false)
 
   return (
